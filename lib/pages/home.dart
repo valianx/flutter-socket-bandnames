@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
       onDismissed: (direction) {
         print('direccion: $direction');
         print('id: ${band.id}');
-        //TODO: eliminar en backend
+        //TODO: eliminar en backend 
       },
       background: Container(
           padding: EdgeInsets.only(left: 8),
